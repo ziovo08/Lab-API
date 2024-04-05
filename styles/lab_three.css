@@ -1,0 +1,26 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 43px;
+    margin: auto;
+    max-width: 1200px;
+    
+}
+ 
+iframe{
+    flex: 1;
+    margin-top: 6rem;
+}
+@media screen and (min-width: 768px) {
+    iframe{
+        height: 35rem;
+        max-width: 100%
+    }
+}
+@media screen and (min-width:1200px) {
+    iframe{
+        height: 40rem;
+        max-width: 100%;
+    }   
+} 
